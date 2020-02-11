@@ -17,7 +17,7 @@ fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 out = cv2.VideoWriter(os.path.join(data_path, "gray_video.mp4"),fourcc, int(video_fps), (int(video_width), int(video_height)), isColor=False)
 
 # play the video
-while(cap.isOpened()):
+while cap.isOpened():
     ret, frame = cap.read()
     
     if not ret:

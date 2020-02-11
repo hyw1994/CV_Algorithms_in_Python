@@ -1,3 +1,4 @@
 .vscode/*
 .ipynb_checkpoints/*
 /data/*.mp4
+/.idea/*
